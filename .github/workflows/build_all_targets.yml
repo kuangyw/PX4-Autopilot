@@ -21,6 +21,7 @@ on:
       - '**'
     paths-ignore:
       - 'docs/**'
+  workflow_dispatch:
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
